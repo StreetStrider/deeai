@@ -1,0 +1,22 @@
+{
+     "name": "deeai",
+  "version": "0.0.0",
+
+  "main": "deeai.js",
+
+  "scripts":
+  {
+    "test": "tsc; node -r esm release/dev/test.js"
+  },
+
+  "dependencies":
+  {
+    "typescript": "4"
+  },
+
+  "devDependencies":
+  {
+    "@types/node": "14",
+    "esm": "3"
+  }
+}
