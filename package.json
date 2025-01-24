@@ -17,6 +17,7 @@
   "devDependencies":
   {
     "@types/node": "14",
+    "@types/react": "*",
     "esm": "3"
   }
 }

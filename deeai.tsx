@@ -1,4 +1,8 @@
 
+import React from 'react'
+
+var x = <div />
+
 export type Key = (string | symbol)
 
 /* type Update <Map extends {}, K extends Key, M> = (Map & { [KN in K]: M }) */

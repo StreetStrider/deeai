@@ -1,13 +1,14 @@
 {
 	"include":
 	[
-		"*.ts"
+		"*.tsx"
 	],
 	"compilerOptions":
 	{
 		"noEmit": false,
 		"outDir": "release/dev/",
 		"pretty": true,
+"jsx": "react",
 
 		"strict": true,
 		"target": "ES6",
